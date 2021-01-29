@@ -1,12 +1,6 @@
 %% Read file
 clc; close all; clear;
-% curdir = 'c:\Users\ltruonghong\TUDelft\Point Cloud Processing\Data\UCD\Blessington bridge\UAVs\2018 Aug\';
-% filename = 'LMR 10m.txt';
-% curdir = 'c:\Users\ltruonghong\TUDelft\Point Cloud Processing\Data\Cambridge_XYZ\';
-% filename = 'Bridge_01.txt';
-
-curdir = 'c:\Users\ltruonghong\TUDelft\Point Cloud Processing\Data\UCD\Germany Concrete Bridge\';
-% filename = 'Concrete_Bridge_5mm_Duplication.txt';
+curdir = '\Concrete Bridge\';
 filename = 'Concrete_Bridge_10mm.txt';
 
 delimiter = {' ' '\b' '\t' ',' ';' }; % all possible delimiter 
